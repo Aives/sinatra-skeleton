@@ -14,3 +14,19 @@ get '/signup' do
 get '/profile' do
   erb :profile
 end
+
+get '/logout' do
+  erb :logout
+end
+
+post '/login' do
+    redirect '/'
+end
+
+post '/signup' do
+    redirect '/'
+end
+
+post '/profile' do
+    redirect '/'
+end
