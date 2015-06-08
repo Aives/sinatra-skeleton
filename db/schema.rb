@@ -14,6 +14,7 @@
 ActiveRecord::Schema.define(version: 2) do
 
   create_table "movies", force: :cascade do |t|
+    t.string  "name"
     t.string  "director"
     t.string  "writer"
     t.string  "actor"
